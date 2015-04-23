@@ -1,0 +1,115 @@
+/**
+// Author: Jason Worrell
+// Creation Date: April 23, 2015
+// Revised:
+// Note: choose a person to contact
+*/
+body{
+    background:  transparent;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    color: white;
+    font-size: 1rem;
+}
+
+#content{
+    width: 95%;
+    padding: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 1.2% auto;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+    /* ========================== */
+    background: -webkit-linear-gradient(rgb(7, 107,163), rgb(124, 231, 245));
+    background: -moz-linear-gradient(rgb(7, 107,163), rgb(124, 231, 245));
+    background: -o-linear-gradient(rgb(7, 107,163), rgb(124, 231, 245));
+    background: linear-gradient(rgb(7, 107,163), rgb(124, 231, 245));
+    
+    /* ========================== */    
+}
+
+.label{
+  text-align: right; 
+}
+
+.data{
+  font-weight: bold; 
+}
+
+.btn{
+	display: inline-block;
+  #background-color: orange;
+	background-color: red;
+  width: 40%;
+  margin-bottom: 10px;
+  padding: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover{
+  text-shadow: 1px 1px 0.5px black;
+  box-shadow: 1px 1px 0.5px black;  
+}
+
+.btn:active{
+  #box-shadow: -1px 1px 0.5px black inset; 
+  color: yellow
+
+}
+
+#searchDiv>*{
+  display: inline-block;
+}
+
+#clear{
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 2px;
+  cursor: pointer;  
+}
+
+#clear:hover{
+  text-shadow: 1px 1px 0.5px black;
+  box-shadow: 1px 1px 0.5px black; 
+}
+
+#searchText{
+  width: 20%;
+  background: gray;
+  text-shadow: 1px 1px 0.5px black;
+}
+
+#email, #phone, #lastname, #firstname {
+    padding-left: 8%;
+}
+
+#email:hover, #phone:hover{
+  cursor: pointer;
+  color: yellow;
+}
+
+
+#clearLocal{
+    position: absolute;
+    bottom: 0;
+    right: 0;    
+    border-radius: 5px;
+    background: gray;
+    padding: 3px;
+    cursor: pointer;
+}
+#clearLocal:active{
+    color: yellow;
+    text-shadow: 1px 1px 0.5px black;    
+    
+}
+
+
+
+
+
+
+
